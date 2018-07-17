@@ -1,0 +1,39 @@
+/* 全局样式 */
+.container {
+  font-size: 32rpx;
+}
+/* 按钮点击态 */
+.btn-hover {
+  opacity: 0.6;
+}
+
+/* 表单公共样式 */
+.form-item-wraper {
+  display: flex;
+  align-items: center;
+  padding: 16rpx 0;
+  .form-item-label {
+    font-size: 30rpx;
+    color: @grey-default;
+    margin-right: 40rpx;
+    min-width: 4em;
+    .sub-label {
+      font-size: 24rpx;
+      color: #BBBBBB;
+      text-align: center;
+    }
+  }
+  .form-item-area {
+    flex: 1;
+    font-size: 30rpx;
+    padding: 20rpx 0;
+    .input-placeholder {
+      font-size: 26rpx;
+      color: @grey-semi;
+    }
+  }
+  input {
+    border-bottom: 2rpx solid @grey-light;
+  }
+}
+
