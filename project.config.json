@@ -8,6 +8,6 @@
   },
   "compileType": "miniprogram",
   "appid": "touristappid",
-  "projectname": "payhire",
+  "projectname": "wepy_init",
   "miniprogramRoot": "./dist"
 }

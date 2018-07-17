@@ -1,5 +1,5 @@
 {
-  "name": "payhire",
+  "name": "wepy_init",
   "version": "0.0.2",
   "description": "A WePY project",
   "main": "dist/app.js",
@@ -20,8 +20,9 @@
     "redux": "^3.7.2",
     "redux-actions": "^2.2.1",
     "redux-promise": "^0.5.3",
+    "redux-saga": "^0.16.0",
     "wepy-redux": "^1.5.3",
-    "wepy": "^1.6.0",
+    "wepy": "^1.7.2",
     "wepy-async-function": "^1.4.4",
     "wepy-com-toast": "^1.0.2"
   },

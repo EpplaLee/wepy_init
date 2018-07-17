@@ -6,7 +6,7 @@ export const version = '0.0.1'
 
 export const isDev = false
 
-export const host = `http${isDev ? '' : 's'}://blink.51rencaiyun.com`
+export const host = ''
 
 export function sleep(timeout) {
   return new Promise((resolve) => {
